@@ -14,7 +14,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: checkoutservice
+          image: gcr.io/devops-training-344805/checkoutservice:latest
           ports:
           - containerPort: 5050
           readinessProbe:
