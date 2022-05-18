@@ -14,7 +14,7 @@ spec:
       serviceAccountName: default
       containers:
       - name: server
-        image: shippingservice
+        image: gcr.io/devops-training-344805/shippingservice:latest
         ports:
         - containerPort: 50051
         env:
